@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/covidFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/covidFragment"
+        android:name="com.example.a30daysofkotlinproject.CovidFragment"
+        android:label="Covid 19 Global Data"
+        tools:layout="@layout/covid_fragment" />
+</navigation>
